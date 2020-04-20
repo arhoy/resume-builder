@@ -9,10 +9,10 @@ import { Footer } from './Footer';
 
 const theme = {
   colors: {
-    primary: '#192242',
-    primaryDark: '#101A37',
-    primaryLight: '#34305C',
-    primaryLight2: '#817AC6',
+    primary: '#24888D',
+    primaryDark: '#1B5B5E',
+    primaryLight: '#48BAC0',
+    primaryLight2: '#7FD6DB',
     secondaryVeryLight: '#d2f7f2',
     secondary: 'rgb(24, 163, 201)',
     lightgrey: 'rgb(240,240,240)',
@@ -71,8 +71,9 @@ const FooterContainer = styled.footer`
   grid-column: full-start/full-end;
 `;
 
-const Layout = ({ children }) => {
+export const Layout = ({ children }) => {
   const white = '#fff';
+  const mobileL = '600px';
 
   return (
     <>
@@ -86,6 +87,7 @@ const Layout = ({ children }) => {
 
           body,
           html {
+            font-size: 1.6rem;
             position: relative;
             background: ${white};
             max-width: 100%;
@@ -93,6 +95,12 @@ const Layout = ({ children }) => {
             width: 100%;
             margin: 0;
             font-family: Poppins, Helvetica, Arial, sans-serif;
+          }
+          html {
+            font-size: 62.5%;
+            @media (max-width: ${mobileL}) {
+              font-size: 56.25%;
+            }
           }
         `}
       />
@@ -118,5 +126,3 @@ Layout.propTypes = {
 Layout.defaultProps = {
   full: true,
 };
-
-export default Layout;

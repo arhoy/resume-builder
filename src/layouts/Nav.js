@@ -37,7 +37,8 @@ export const Nav = () => {
       <Logo>Starter Theme</Logo>
       <Links>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/page-2">Page 2</NavLink>
+        <NavLink to="/resume">Resume Tableau</NavLink>
+        <NavLink to="/resume-gatsby">Resume Gatsby</NavLink>
       </Links>
     </Container>
   );

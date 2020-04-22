@@ -26,11 +26,18 @@ export const Section1 = () => {
       <SectionLHS>
         <SectionTitle>Work Experience</SectionTitle>
         <ExperienceBlock
-          position="Freelance Web Developer"
+          position="Sales & Freelance Web Developer"
           company="Aquasar Inc"
           date="06/2019 - Present"
           summary="Creating blazingly fast websites using Gatsby, React, WordPress, online advertising and SEO"
           location="Remote"
+        />
+        <ExperienceBlock
+          position="Tableau CRM Data Analyst"
+          company="Finning Canada"
+          date="01/2017 - 07/2019"
+          summary="Created corporate level dashboards, ad hoc reports and automated tasks using Tableau, SQL and RPA"
+          location="Edmonton"
         />
         <ExperienceBlock
           position="Developer and Ads Consultant"

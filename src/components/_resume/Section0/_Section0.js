@@ -95,7 +95,7 @@ export const Section0 = ({ fluid }) => {
           </li>
           <li className="location">
             {' '}
-            <span>Remote, Boston MA | USA </span>{' '}
+            <span>Remote, Atlanta, GA | USA </span>{' '}
             <FaMapMarkerAlt className="icons" />
           </li>
           <li className="websites">

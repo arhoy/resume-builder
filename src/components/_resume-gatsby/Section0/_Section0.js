@@ -71,12 +71,11 @@ export const Section0 = ({ fluid }) => {
     <Container>
       <NameSection>
         <h1>Alex Hoy</h1>
-        <h2>Gatsby & React Developer</h2>
+        <h2>Gatsby and React Developer</h2>
 
         <p>
-          I have experience a wide range of Gatsby and React websites and web
-          apps. This includes integrating Shopify with Gatsby and an array of
-          Content Management Systems.
+          I build blazingly fast custom websites and web apps with React and
+          Gatsby from the ground up.
         </p>
       </NameSection>
       <ImageSection>
@@ -95,7 +94,7 @@ export const Section0 = ({ fluid }) => {
           </li>
           <li className="location">
             {' '}
-            <span>Remote. Canada. USA </span>{' '}
+            <span>New York, NY | Remote </span>{' '}
             <FaMapMarkerAlt className="icons" />
           </li>
           <li className="websites">

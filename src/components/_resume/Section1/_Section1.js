@@ -82,6 +82,7 @@ export const Section1 = () => {
           skillsArray={[
             'Tableau',
             'SQL',
+            'Business Intelligence',
             'Automation',
             'Gatsby',
             'React',
@@ -99,6 +100,7 @@ export const Section1 = () => {
         <SectionTitle>Technical Skills</SectionTitle>
         <SkillLevel skill="Tableau" level={9} />
         <SkillLevel skill="SQL" level={9} />
+        <SkillLevel skill="Business Intelligence" level={9} />
         <SkillLevel skill="Automation" level={9} />
         <SkillLevel skill="Statistics" level={8} />
         <SkillLevel skill="Data Analysis" level={8} />

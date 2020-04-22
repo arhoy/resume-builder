@@ -28,15 +28,17 @@ export const query = graphql`
 const ref = React.createRef();
 
 const ResumePage = ({ data }) => {
+  const options = {
+    orientation: 'portrait',
+    unit: 'in',
+    format: [8, 11],
+  };
   return (
     <Layout>
-      <Pdf
-        style={{ width: '100%', height: '100%', background: 'blue' }}
-        targetRef={ref}
-        filename="code-example.pdf"
-      >
+      <Pdf options={options} targetRef={ref} filename="code-example.pdf">
         {({ toPdf }) => <Button onClick={toPdf}>Generate Pdf</Button>}
       </Pdf>
+
       <Container ref={ref}>
         <Section0 fluid={data.resumePic.childImageSharp.fluid} />
         <Section1 />

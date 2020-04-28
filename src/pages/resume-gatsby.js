@@ -11,12 +11,13 @@ import { Resume } from '../components/_resume/Resume';
 const ResumePage = () => {
   return (
     <Layout>
-      <PDFDownloadLink document={<MyDocument />} fileName="somename.pdf">
+      {/* <PDFDownloadLink document={<MyDocument />} fileName="somename.pdf">
         {({ blob, url, loading, error }) =>
           loading ? 'Loading document...' : 'Download now!'
         }
       </PDFDownloadLink>
-      <MyDocument />
+      <MyDocument /> */}
+      NEW
     </Layout>
   );
 };
